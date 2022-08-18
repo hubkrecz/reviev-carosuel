@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: rgba(219, 201, 201, 0.842);
+}
+
+.container {
+    width: 100vw;
+}
+
+.review {
+    width: 30vw;
+}
+
+.review-header {
+    width: 15vw;
+    text-align: center;
+    font-weight: 600;
+    margin: auto;
+
+}
+
+.review-image {
+    width: 80px;
+    height: 80px;
+}
+
+.review-content {
+    text-align: center;
+}
