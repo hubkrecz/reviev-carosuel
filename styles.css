@@ -29,8 +29,9 @@ body {
     display: flex;
     flex-direction: row;
     height: fit-content;
-    justify-content: space-around;
 }
+
+
 
 .review {
     width: 600px;
@@ -38,6 +39,7 @@ body {
     border-radius: 2%;
     box-shadow: 0 0 1em #c2c2c2;
 }
+
 
 .review-header {
     width: 300px;
@@ -106,7 +108,7 @@ body {
     margin-left: 2px;
 }
 
-.review-buttons-GoLeft {}
+/* .review-buttons-GoLeft {} */
 
 .review-buttons-SurpriceMe {
     width: 82px;
