@@ -20,8 +20,9 @@ body {
 }
 
 .container {
-    width: fit-content;
+    width: 350px;
     height: fit-content;
+    overflow-x: hidden;
 }
 
 .rewiew-wrapper {
