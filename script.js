@@ -1,7 +1,12 @@
 
-const goLeft = document.querySelectorAll('.review-buttons-GoLeft')
+const goLeft = document.querySelector('.review-buttons-GoLeft');
+const review = document.querySelectorAll('.review');
+
+const arrayOfReview = [...review];
+console.log(arrayOfReview);
+
 const goLeftPressed = () => {
     console.log("udało się !!");
 }
-[...goLeft]
-console.log(goLeft)
+
+
