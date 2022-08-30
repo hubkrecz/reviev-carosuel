@@ -36,9 +36,8 @@ body {
     width: 600px;
 }
 
-.review {
+.review {}
 
-}
 .review--hidden {
     display: none;
 }
