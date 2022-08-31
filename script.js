@@ -1,12 +1,35 @@
+const goLeft = document.querySelector('.review-buttons-GoLeft');
+const goRight = document.querySelector('.review-buttons-GoRight');
+const surpriceMe = document.querySelector('.review-buttons-SurpriceMe');
 
-const buttons = document.querySelectorAll('.review-buttons-GoLeft')
-const goLeftPressed = () => {
-    console.log("udało się !!");
+const review = document.querySelectorAll('.review');
+
+const arrayOfReview = [...review];
+console.log(arrayOfReview);
+
+const number = () => arrayOfReview.filter((current, index) => index > 0);
+
+
+(
+    () => [...number()].forEach((current) => current.classList.add('review--hidden'))
+)();
+
+const reviewSwaper = (index) => {
+    arrayOfReview.forEach((current) => current.classList.add('review--hidden'))
+
+    arrayOfReview[index].classList.remove("review--hidden")
 }
 
-const arrayOfleftButtons = [...buttons];
+// const indexGiverForRevievSwaper(index) => {
 
+// }
 
- arrayOfButtons[1].addEventListener('click', () => {
-    console.log('duuuuuupa');
- });
+const isContain = (array, className) => array.find((current) => current.contain(!className))
+
+console.log(isContain(number, "reviev--hidden"))
+goLeft.addEventListener("click", () => {
+
+    indexGiverForRevievSwaper()
+})
+goRight.addEventListener("click")
+surpriceMe.addEventListener("click")
