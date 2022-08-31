@@ -1,4 +1,3 @@
-
 const goLeft = document.querySelector('.review-buttons-GoLeft');
 const goRight = document.querySelector('.review-buttons-GoRight');
 const surpriceMe = document.querySelector('.review-buttons-SurpriceMe');
